@@ -1,9 +1,7 @@
 # Project Name Here
 Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
 
-| **Engineer** | **School** | **Area of Interest** | **Grade** |
-|:--:|:--:|:--:|:--:|
-| FirstName LastInitialOnly | School Name | Electrical Engineering | Incoming Senior
+| Andrew B. | Sacred Heart Cathedral Prepratory| Aerospace Engineering | Incoming Sophmore
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
@@ -27,16 +25,20 @@ For your second milestone, explain what you've worked on since your previous mil
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone 
 
+# First Milestone
+My first milestone is the assembly of my planters pcb, sensor, speaker and body. The first thing I did was assemble my pcb, which entalied plugging in some ribbon cables. My second process was attaching my sensor to a mounting mechanism and plugging in the cable that would attach to the pcb. I then assembled my planters body, which was 3d printed. I first attached the pot to the drip tray, then attached it to the housing. Then, I attached my sensor to the assembled body and attacehd the pcb and screen to the body. I then attached the back part to finish the physical aspect of this project.
+
+The assembly was pretty straight forward and simple, except attaching the speaker cable to the pcb. The cable was exteremly short and was therefore very tense when attaching. It was also a very small and fragile cable, which would be very easy to break. My next step is programing the software for the planter.
+
+# Completion Of Starter Project
+My first milestone is the completion of my starter project, that being the useless box. The function of the box is essentially to have no function (except perhaps pinching the user), as no items can be taken out or placed inside it. The box does this by contaning a switch that when flipped, causes a mechanical arm to be raised which hits the switch, lowering the arm and closing the box. The basic components of the box are the box itself, a pcb, a motor and a plastic arm. I had an issue while soldering components to the pcb which caused multiple short circuits. After I replaced the pcb, I had an issue with my motor, where it wasn't generationg enough torque to push the switch. I fixed this by replacing the motor. However, after doing this, I found that the motor was too powerful, causing the lid of the box to stay open. I solved this by putting some tape on the sides of the hinge.
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-# First Milestone
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
+
+
+
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
