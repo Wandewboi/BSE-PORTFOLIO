@@ -1,5 +1,5 @@
-# Pet Planter Project
-A smart plant pot that can record humidity and temperature and upload that data to io.adafruit.com. It alerts the user when the soil is too dry or moist and the user can adjust the too-low or too-high levels using 5 pre-programed profiles.
+k# Pet Planter Project
+A smart plant pot that can record humidity and temperature and upload that data to io.adafruit.com. It alerts the user when the soil is too dry or moist and the user can adjust the too-low or too-high levels using 5 pre-programmed profiles.
 | Andrew B. | Sacred Heart Cathedral Prepratory| Aerospace Engineering | Incoming Sophmore
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
@@ -7,11 +7,9 @@ A smart plant pot that can record humidity and temperature and upload that data 
 ![Headstone Image](logo.svg)
   
 # Final Milestone
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
+My final milestone for my base project was the completion of a profile system, which allows the user to customize the water alert levels using 5 different pre-programmed profiles. I did this by prompting the user to input an integer 1-5 and based on that chagnes the alert values. The program also punishes the user with a very loud sound that doesn't stop until unplugged if they input anything other than 1,2,3,4 or 5. 
+
+I initially tried implementing this solution with some touchscreen buttons because I thought my screen had touchscreen functionality. It didn't so now the user selects the setting based on keyboard input. This milestone marks the end of my core project, however, I still plan to add a self-watering system that will use an Arduino and valve.
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
