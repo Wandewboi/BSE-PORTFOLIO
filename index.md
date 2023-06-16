@@ -7,7 +7,7 @@ A smart plant pot that can record humidity and temperature and upload that data 
 ![Headstone Image](logo.svg)
   
 # Final Milestone
-My final milestone for my base project was the completion of a profile system, which allows the user to customize the water alert levels using 5 different pre-programmed profiles. I did this by prompting the user to input an integer 1-5 and based on that chagnes the alert values. The program also punishes the user with a very loud sound that doesn't stop until unplugged if they input anything other than 1,2,3,4 or 5. 
+My final milestone for my base project was the completion of a profile system, which allows the user to customize the water alert levels using 5 different pre-programmed profiles. I did this by prompting the user to input an integer 1-5, and based on that changing the alert values. The program also punishes the user with a very loud sound that doesn't stop until unplugged if they input anything other than 1,2,3,4 or 5. 
 
 I initially tried implementing this solution with some touchscreen buttons because I thought my screen had touchscreen functionality. It didn't so now the user selects the setting based on keyboard input. This milestone marks the end of my core project, however, I still plan to add a self-watering system that will use an Arduino and valve.
 
@@ -17,18 +17,18 @@ I initially tried implementing this solution with some touchscreen buttons becau
 
 # Second Milestone
 My second milestone is getting the planter software to work and interface with adafruit.io. I had to download a few libraries and download them onto the pcb's drive. I encountered quite a few issues in this step that led to almost a full day of troubleshooting. The first thing that I did wrong was updating the pcb to the incorrect version of circuit python. I fixed that by flashing a different version of circuit python. The real issue that I encountered was the default code that was provided in the kit. The first issue was with an argument name. In one of the setup folders, an argument was called aio_username, but in the code, it was called aio_name, something that took me a long time to catch. After I fixed that, I kept getting an issue that caused the pcb to  be unable to read sensor data, which caused the program to crash because ada fruit io was set up in a way where it would kick the user off if new data wasn't being added at least once every 60 seconds. This was solved by deleting a portion of faulty code. I also changed the low water warning to something a bit funnier. My next step is adding a profile system so the user can select what type of plant they have and have the water alerts change based on that.
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wMOQiFmWf6o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # First Milestone
 My first milestone is the assembly of my planters pcb, sensor, speaker and body. The first thing I did was assemble my pcb, which entalied plugging in some ribbon cables. My second process was attaching my sensor to a mounting mechanism and plugging in the cable that would attach to the pcb. I then assembled my planters body, which was 3d printed. I first attached the pot to the drip tray, then attached it to the housing. Then, I attached my sensor to the assembled body and attacehd the pcb and screen to the body. I then attached the back part to finish the physical aspect of this project.
 
 The assembly was pretty straight forward and simple, except attaching the speaker cable to the pcb. The cable was exteremly short and was therefore very tense when attaching. It was also a very small and fragile cable, which would be very easy to break. My next step is programing the software for the planter.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bPSWvVxIx5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # Completion Of Starter Project
 My first milestone is the completion of my starter project, that being the useless box. The function of the box is essentially to have no function (except perhaps pinching the user), as no items can be taken out or placed inside it. The box does this by contaning a switch that when flipped, causes a mechanical arm to be raised which hits the switch, lowering the arm and closing the box. The basic components of the box are the box itself, a pcb, a motor and a plastic arm. I had an issue while soldering components to the pcb which caused multiple short circuits. After I replaced the pcb, I had an issue with my motor, where it wasn't generationg enough torque to push the switch. I fixed this by replacing the motor. However, after doing this, I found that the motor was too powerful, causing the lid of the box to stay open. I solved this by putting some tape on the sides of the hinge.
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WVR7KuA-kq8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 
