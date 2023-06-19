@@ -2,10 +2,10 @@
 A smart plant pot that can record humidity and temperature and upload that data to io.adafruit.com. It alerts the user when the soil is too dry or moist and the user can adjust the too-low or too-high levels using 5 pre-programmed profiles.
 | Andrew B. | Sacred Heart Cathedral Prepratory| Aerospace Engineering | Incoming Sophmore
 
-<!**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
+<!**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**>
 
 ![Headstone Image](logo.svg)
->
+
   
 # Final Milestone
 My final milestone for my base project was the completion of a profile system, which allows the user to customize the water alert levels using 5 different pre-programmed profiles. I did this by prompting the user to input an integer 1-5, and based on that changing the alert values. The program also punishes the user with a very loud sound that doesn't stop until unplugged if they input anything other than 1,2,3,4 or 5. 
