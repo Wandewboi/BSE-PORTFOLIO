@@ -67,7 +67,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 |:--:|:--:|:--:|:--:|
 | Adafruit STEMMA Soil Sensor | Moisture Detection | $7.50 | <a href="https://www.adafruit.com/product/4026"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Mini Oval Speaker | $1.95 | <a href="https://www.adafruit.com/product/3923"> Link </a> |
+| Mini Oval Speaker | For Alerts | $1.95 | <a href="https://www.adafruit.com/product/3923"> Link </a> |
 |:--:|:--:|:--:|:--:|
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
