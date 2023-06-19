@@ -1,10 +1,11 @@
 # Pet Planter Project
 A smart plant pot that can record humidity and temperature and upload that data to io.adafruit.com. It alerts the user when the soil is too dry or moist and the user can adjust the too-low or too-high levels using 5 pre-programmed profiles.
+
 | Andrew B. | Sacred Heart Cathedral Prepratory| Aerospace Engineering | Incoming Sophmore
 
-<! **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.** >
+<!--- **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.** 
 
-![Headstone Image](logo.svg)
+![Headstone Image](logo.svg)-->
 
   
 # Final Milestone
@@ -37,7 +38,7 @@ My first milestone is the completion of my starter project, that being the usele
 
 
 
-<!
+<!--
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
@@ -56,7 +57,7 @@ void loop() {
 
 }
 ```
->
+-->
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
 Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
@@ -77,7 +78,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 |:--:|:--:|:--:|:--:|
 | USB Type A to Type C Cable | To Connect Power Supply to PCB | $4.95 | <a href="https://www.adafruit.com/product/4474"> Link </a> |
 |:--:|:--:|:--:|:--:|
-<!
+<!--
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
