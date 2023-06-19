@@ -28,7 +28,7 @@ The assembly was pretty straight forward and simple, except attaching the speake
 # Completion Of Starter Project
 My first milestone is the completion of my starter project, that being the useless box. The function of the box is essentially to have no function (except perhaps pinching the user), as no items can be taken out or placed inside it. The box does this by contaning a switch that when flipped, causes a mechanical arm to be raised which hits the switch, lowering the arm and closing the box. The basic components of the box are the box itself, a pcb, a motor and a plastic arm. I had an issue while soldering components to the pcb which caused multiple short circuits. After I replaced the pcb, I had an issue with my motor, where it wasn't generationg enough torque to push the switch. I fixed this by replacing the motor. However, after doing this, I found that the motor was too powerful, causing the lid of the box to stay open. I solved this by putting some tape on the sides of the hinge.
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WVR7KuA-kq8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 
