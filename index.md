@@ -63,21 +63,21 @@ Here's where you'll list the parts in your project. To add more rows, just copy 
 Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
 
 | **Part** | **Note** | **Price** | **Link** |
-|:--:|:--:|:--:|:--:|
+
 | Arduino Uno | Power Supply | $5.95 | <a href="https://www.adafruit.com/product/501"> Link </a> |
-|:--:|:--:|:--:|:--:|
+
 | Pyportal Titano | Screen and Logic Board | $59.95 | <a href="https://www.adafruit.com/product/4444"> Link </a> |
-|:--:|:--:|:--:|:--:|
+
 | Adafruit STEMMA Soil Sensor | Moisture Detection | $7.50 | <a href="https://www.adafruit.com/product/4026"> Link </a> |
-|:--:|:--:|:--:|:--:|
+
 | Mini Oval Speaker | For Alerts | $1.95 | <a href="https://www.adafruit.com/product/3923"> Link </a> |
-|:--:|:--:|:--:|:--:|
+
 | STEMMA Cable | Cable to Connect PCB to Sensor | $0.75 | <a href="https://www.adafruit.com/product/3568"> Link </a> |
-|:--:|:--:|:--:|:--:|
+
 | Black Nylon Machine Screw and Stand-off Set | Assortment of Screws | $16.95 | <a href="https://www.adafruit.com/product/3299"> Link </a> |
-|:--:|:--:|:--:|:--:|
+
 | USB Type A to Type C Cable | To Connect Power Supply to PCB | $4.95 | <a href="https://www.adafruit.com/product/4474"> Link </a> |
-|:--:|:--:|:--:|:--:|
+
 <!---
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
