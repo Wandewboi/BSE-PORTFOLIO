@@ -78,8 +78,8 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | USB Type A to Type C Cable | To Connect Power Supply to PCB | $4.95 | <a href="https://www.adafruit.com/product/4474"> Link </a> |
 
-<!---
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+
+| HFS (R) 12v Dc Electric Solenoid Valve | To control water flow | $13.99 | https://www.amazon.com/HFS-Electric-Solenoid-Valve-Water/dp/B018WRJYPY/ref=pd_ci_mcx_mh_mcx_views_0?pd_rd_w=gPWu1&content-id=amzn1.sym.0250fb24-4363-44d0-b635-ac15f859c3b5&pf_rd_p=0250fb24-4363-44d0-b635-ac15f859c3b5&pf_rd_r=0NK049FRG1Z8AQV7VBC2&pd_rd_wg=nafEh&pd_rd_r=be837bb8-2024-4515-abf9-af52dc62d3f4&pd_rd_i=B018WRJYPY |
 |:--:|:--:|:--:|:--:|
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
@@ -98,4 +98,4 @@ One of the best parts about Github is that you can view how other people set up 
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
 To watch the BSE tutorial on how to create a portfolio, click here.
--->
+
