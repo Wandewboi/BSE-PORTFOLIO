@@ -471,11 +471,11 @@ Don't forget to place the link of where to buy each component inside the quotati
 | USB Type A to Type C Cable | To Connect Power Supply to PCB | $4.95 | <a href="https://www.adafruit.com/product/4474"> Link </a> |
 
 
-| HFS (R) 12v Dc Electric Solenoid Valve | To control water flow | $13.99 | <https://www.amazon.com/HFS-Electric-Solenoid-Valve-Water/dp/B018WRJYPY/ref=pd_ci_mcx_mh_mcx_views_0?pd_rd_w=gPWu1&content-id=amzn1.sym.0250fb24-4363-44d0-b635-ac15f859c3b5&pf_rd_p=0250fb24-4363-44d0-b635-ac15f859c3b5&pf_rd_r=0NK049FRG1Z8AQV7VBC2&pd_rd_wg=nafEh&pd_rd_r=be837bb8-2024-4515-abf9-af52dc62d3f4&pd_rd_i=B018WRJYPY > |
+| HFS (R) 12v Dc Electric Solenoid Valve | To control water flow | $13.99 | <a href="https://www.amazon.com/HFS-Electric-Solenoid-Valve-Water/dp/B018WRJYPY/ref=pd_ci_mcx_mh_mcx_views_0?pd_rd_w=gPWu1&content-id=amzn1.sym.0250fb24-4363-44d0-b635-ac15f859c3b5&pf_rd_p=0250fb24-4363-44d0-b635-ac15f859c3b5&pf_rd_r=0NK049FRG1Z8AQV7VBC2&pd_rd_wg=nafEh&pd_rd_r=be837bb8-2024-4515-abf9-af52dc62d3f4&pd_rd_i=B018WRJYPY"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Relay Module | Passing on instructions from circuit python board to solenoid. | $8.99 | <https://www.amazon.com/CHENBO-Channel-Module-Shield-Arduino/dp/B07874KSLY/ref=asc_df_B07874KSLY/?tag=hyprod-20&linkCode=df0&hvadid=242010397888&hvpos=&hvnetw=g&hvrand=6854958547700363721&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032171&hvtargid=pla-405732959949&psc=1> |
+| Relay Module | Passing on instructions from circuit python board to solenoid. | $8.99 | <a href="https://www.amazon.com/CHENBO-Channel-Module-Shield-Arduino/dp/B07874KSLY/ref=asc_df_B07874KSLY/?tag=hyprod-20&linkCode=df0&hvadid=242010397888&hvpos=&hvnetw=g&hvrand=6854958547700363721&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032171&hvtargid=pla-405732959949&psc=1"> Link </a>  |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Item Name | What the item is used for | $Price | <a "href="https://www.amazon.com/MCIGICM-15SQ045-Schottky-Blocking-Diodes/dp/B07NS63XJH/ref=sr_1_3?keywords=diode&qid=1687450556&sr=8-3"> Link </a> |
 |:--:|:--:|:--:|:--:|
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
