@@ -1,6 +1,7 @@
 # Pet Planter Project
 A smart plant pot that can record humidity and temperature and upload that data to io.adafruit.com. It alerts the user when the soil is too dry or moist and the user can adjust the too-low or too-high levels using 5 pre-programmed profiles.
 
+|
 | Andrew B. | Sacred Heart Cathedral Prepratory| Aerospace Engineering | Incoming Sophmore
 
 <!--- **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.** 
@@ -455,7 +456,7 @@ while True:
 Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs.--> 
 
 | **Part** | **Note** | **Price** | **Link** |
-
+|:--:|:--:|:--:|:--:|
 | Arduino Uno | Power Supply | $5.95 | <a href="https://www.adafruit.com/product/501"> Link </a> |
 
 | Pyportal Titano | Screen and Logic Board | $59.95 | <a href="https://www.adafruit.com/product/4444"> Link </a> |
