@@ -1,7 +1,8 @@
 # Pet Planter Project
 A smart plant pot that can record humidity and temperature and upload that data to io.adafruit.com. It alerts the user when the soil is too dry or moist and the user can adjust the too-low or too-high levels using 5 pre-programmed profiles.
 
-|
+| **Engineer** | **School** | **Area of Interest** | **Grade** |
+|:--:|:--:|:--:|:--:|
 | Andrew B. | Sacred Heart Cathedral Prepratory| Aerospace Engineering | Incoming Sophmore
 
 <!--- **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.** 
@@ -477,7 +478,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 |:--:|:--:|:--:|:--:|
 | Hose Fitting, SUNGATOR Brass Hose Barb Fitting, Adapter, 1/4" Barb x 1/4" NPT Male Pipe (4-Pack) | Make attaching valve to bottle cap easier | $7.99 | <a href="https://www.amazon.com/Fitting-SUNGATOR-Brass-Adapter-4-Pack/dp/B07MTSSHB3/ref=sr_1_4?crid=3G2QA9BVIB0O1&keywords=quarter%2Bbarbed%2Bfitting&qid=1687562016&sprefix=quarter%2Bbarbed%2Bfitti%2Caps%2C206&sr=8-4&th=1"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| 1/4" ID Silicon Tubing | To connect barb fitting to bottle cap | $9.99 | <a href="https://www.amazon.com/Silicon-CellarBrew-Silicone-Brewing-Winemaking/dp/B07W5TGX8B/ref=sr_1_3?crid=2KJ0WSFC7RVCX&keywords=quarter%2Binch%2Bid%2Btubing&qid=1687562681&sprefix=quarter%2Binch%2Bid%2Btubi%2Caps%2C191&sr=8-3&th=1"> Link </a> |
 |:--:|:--:|:--:|:--:|
 
 
