@@ -475,7 +475,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 |:--:|:--:|:--:|:--:|
 | Relay Module | Passing on instructions from circuit python board to solenoid. | $8.99 | <a href="https://www.amazon.com/CHENBO-Channel-Module-Shield-Arduino/dp/B07874KSLY/ref=asc_df_B07874KSLY/?tag=hyprod-20&linkCode=df0&hvadid=242010397888&hvpos=&hvnetw=g&hvrand=6854958547700363721&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032171&hvtargid=pla-405732959949&psc=1"> Link </a>  |
 |:--:|:--:|:--:|:--:|
-| Hose Fitting, SUNGATOR Brass Hose Barb Fitting, Adapter, 1/4" Barb x 1/4" NPT Male Pipe (4-Pack) | Make attaching valve to bottle cap easier | $7.99 | <a "href="[https://www.amazon.com/MCIGICM-15SQ045-Schottky-Blocking-Diodes/dp/B07NS63XJH/ref=sr_1_3?keywords=diode&qid=1687450556&sr=8-3](https://www.amazon.com/Fitting-SUNGATOR-Brass-Adapter-4-Pack/dp/B07MTSSHB3/ref=sr_1_4?crid=3G2QA9BVIB0O1&keywords=quarter%2Bbarbed%2Bfitting&qid=1687562016&sprefix=quarter%2Bbarbed%2Bfitti%2Caps%2C206&sr=8-4&th=1)"> Link </a> |
+| Hose Fitting, SUNGATOR Brass Hose Barb Fitting, Adapter, 1/4" Barb x 1/4" NPT Male Pipe (4-Pack) | Make attaching valve to bottle cap easier | $7.99 | <a href="https://www.amazon.com/Fitting-SUNGATOR-Brass-Adapter-4-Pack/dp/B07MTSSHB3/ref=sr_1_4?crid=3G2QA9BVIB0O1&keywords=quarter%2Bbarbed%2Bfitting&qid=1687562016&sprefix=quarter%2Bbarbed%2Bfitti%2Caps%2C206&sr=8-4&th=1"> Link </a> |
 |:--:|:--:|:--:|:--:|
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
