@@ -5,9 +5,9 @@ A smart plant pot that can record humidity and temperature and upload that data 
 |:--:|:--:|:--:|:--:|
 | Andrew B. | Sacred Heart Cathedral Prepratory| Aerospace Engineering | Incoming Sophmore
 
-<!--- **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.** 
+ **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.** 
 
-![Headstone Image](logo.svg)-->
+![Headstone Image](Andrew-Project.png)
 
   
 # Final Milestone
