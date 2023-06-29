@@ -66,6 +66,9 @@ from adafruit_pyportal import PyPortal
 from adafruit_seesaw.seesaw import Seesaw
 from simpleio import map_range
 import digitalio
+import adafruit_touchscreen
+
+
 
 
 #---| User Config |---------------
@@ -123,7 +126,7 @@ i2c_bus = busio.I2C(board.SCL, board.SDA)
 # Initialize soil sensor (s.s)
 ss = Seesaw(i2c_bus, addr=0x36)
 
-relay = digitalio.DigitalInOut(board.D4)
+relay = digitalio.DigitalInOut(board.D3)
 relay.direction = digitalio.Direction.OUTPUT
 
 
@@ -151,27 +154,89 @@ HEIGHT = board.DISPLAY.height
 # Initialize new PyPortal object
 pyportal = PyPortal(esp=esp,
                     external_spi=spi)
+
+ts = adafruit_touchscreen.Touchscreen(
+    board.TOUCH_XL,
+    board.TOUCH_XR,
+    board.TOUCH_YD,
+    board.TOUCH_YU,
+    calibration=((5200, 59000), (5800, 57000)),
+    size=(480, 320), # Adjust the size for the PyPortal Titano
+)
+
+# Create a group for the image
+image_group = displayio.Group()
+image_group.x = 100
+image_group.y = 120
+
+# Load the image file
+image_file = open("/images/plant-type-selection.bmp", "rb")
+image = displayio.OnDiskBitmap(image_file)
+image_sprite = displayio.TileGrid(image, pixel_shader=getattr(image, 'pixel_shader', displayio.ColorConverter()))
+
+# Add the image sprite to the group
+image_group.append(image_sprite)
+
+# Create a variable to store whether the image has been displayed or not
+image_displayed = False
+
+while True:
+    p = ts.touch_point
+    if p:
+        print(p)
+        # get the x and y coordinates of the touch point
+        x = p[0]
+        y = p[1]
+        # check which quadrant the touch point belongs to
+        if x < 240 and y < 160:
+            # top left quadrant
+            
+            print("You pressed the top left quadrant")
+            # do something here
+            t=1
+        elif x >= 240 and y < 160:
+            # top right quadrant
+            print("You pressed the top right quadrant")
+            # do something here
+            t=2
+        elif x < 240 and y >= 160:
+            # bottom left quadrant
+            print("You pressed the bottom left quadrant")
+            # do something here
+            t=3
+        else:
+            # bottom right quadrant
+            print("You pressed the bottom right quadrant")
+            t=4
+            # do something here
+        # If the image has been displayed and the user touches it, remove it from the screen
+        if image_displayed:
+            board.DISPLAY.show(None) # Clear the screen
+            
+            image_displayed = False # Update the variable
+            break # Exit the loop and continue with the rest of the code
+    else:
+        # If the image has not been displayed yet, show it on the screen
+        if not image_displayed:
+            board.DISPLAY.show(image_group) # Show the image group
+            image_displayed = True # Update the variable
 # Plant Profile
-x=int(input("Please input a number 1-4, 1 indicating your plant doesn't need much water and 5 indicating the opposite"))
+z=t
 
-
-if x  == 1:
+if z  == 1:
         SOIL_LEVEL_MIN=100
         SOIL_LEVEL_MAX=350
-elif x == 2:
+elif z == 2:
         SOIL_LEVEL_MIN=150
         SOIL_LEVEL_MAX=425
-elif x == 3:
+elif z == 3:
         SOIL_LEVEL_MIN=250
         SOIL_LEVEL_MAX=470
-elif x==4:
+elif z==4:
         SOIL_LEVEL_MIN=400
         SOIL_LEVEL_MAX=530
 
-elif x > 5:
-        print("Alright, what about the number 1,2,3,4 and 5 do you not understand? I mean did you even graduate pre school? If so, they should really revoke your diploma. I mean the world is wasting it's time and money making sure that your plumbing and internet work. Why you thought you could use a command line is honestly beyond me. Stupid. What is your blood type? A-? Failure. Not even A+. Now suffer the worst sound known to human kind ")
-        while True:
-             pyportal.play_file(PUNISH)
+
 SOIL_LEVEL_OPTIMAL= (SOIL_LEVEL_MAX+SOIL_LEVEL_MIN)/2
 # Set backlight level
 pyportal.set_backlight(0.5)
@@ -386,7 +451,11 @@ initial = time.monotonic()
 while True:
    
     now = time.monotonic()
-    
+    initial = time.monotonic()
+
+   
+
+
 
 
 
@@ -418,7 +487,7 @@ while True:
     # Play water level alarms
     if moisture <= SOIL_LEVEL_MIN:
         print("Playing low water level warning...")
-        #pyportal.play_file(wav_water_low)
+        pyportal.play_file(wav_water_low)
         relay.value= True
         time.sleep(1)
         print("Opening Valve")
@@ -429,8 +498,8 @@ while True:
         print("Playing high water level warning...")
         pyportal.play_file(wav_water_high)
     
-    if NUMBER_OF_TIMES_PLANT_HAS_BEEN_ABUSED >10:
-         pyportal.play
+    
+         
 
     if now - initial > (DELAY_PUBLISH * 1):
         try:
@@ -449,6 +518,7 @@ while True:
             print("Failed to get data, retrying...\n", e)
             wifi.reset()
     time.sleep(DELAY_SENSOR)
+
 
 ```
 # Bill of Materials
