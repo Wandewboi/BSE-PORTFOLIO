@@ -76,7 +76,7 @@ import adafruit_touchscreen
 NUMBER_OF_TIMES_PLANT_HAS_BEEN_ABUSED=0
 # How often to poll the soil sensor, in seconds
 # Polling every 30 seconds or more may cause connection timeouts
-DELAY_SENSOR = 1
+DELAY_SENSOR = 0.1
 
 
 # How often to send data to adafruit.io, in minutes
@@ -166,8 +166,8 @@ ts = adafruit_touchscreen.Touchscreen(
 
 # Create a group for the image
 image_group = displayio.Group()
-image_group.x = 100
-image_group.y = 120
+image_group.x = 0
+image_group.y = 0
 
 # Load the image file
 image_file = open("/images/plant-type-selection.bmp", "rb")
@@ -320,6 +320,11 @@ label_level.x = display.width - 130
 label_level.y = 300
 splash.append(label_level)
 
+# Create a label to display the profile
+label_profile = Label(font_small)
+label_profile.x = 0
+label_profile.y = 10
+splash.append(label_profile)
 
 print('loading icons...')
 # Load temperature icon
@@ -444,8 +449,15 @@ def display_temperature(temp_val, is_celsius=False):
         print('Temperature: %0.0fC'%temp_val)
         label_temp.text = '%0.0fC'%temp_val
         return int(temp_val)
-
-
+def display_profile(z):
+    if z==1:
+        label_profile.text = 'Alergic To Water'
+    elif z==2:
+        label_profile.text = 'Mildly Dislikes Water'
+    elif z==3:
+        label_profile.text = 'Mango'
+    elif z==4:
+        label_profile.text = 'Mango++'
 # initial reference time
 initial = time.monotonic()
 while True:
@@ -457,10 +469,6 @@ while True:
 
 
 
-
-
-
-
     print("reading soil sensor...")
     # Read capactive
     moisture = ss.moisture_read()
@@ -469,7 +477,10 @@ while True:
     # Read temperature
     temp = ss.get_temp()
     temp = display_temperature(temp)
-
+   
+    #Profile
+    profile=z
+    profile=display_profile(profile)
     # Convert into percentage for filling the screen
     moisture_percentage = map_range(float(moisture), SOIL_LEVEL_MIN, SOIL_LEVEL_MAX, 0.0, 1.0)
 
@@ -482,12 +493,13 @@ while True:
 
 
     print("temp: " + str(temp) + "  moisture: " + str(moisture))
-
+   
+    
 
     # Play water level alarms
     if moisture <= SOIL_LEVEL_MIN:
         print("Playing low water level warning...")
-        pyportal.play_file(wav_water_low)
+        #pyportal.play_file(wav_water_low)
         relay.value= True
         time.sleep(1)
         print("Opening Valve")
