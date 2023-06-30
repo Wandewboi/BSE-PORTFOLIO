@@ -13,7 +13,7 @@ A smart plant pot that can record humidity and temperature and upload that data 
 My modification milestone was the creation of a self-watering system. It works by opening a solenoid valve when the moisture level falls below a certain level. The solenoid valve is connected to a water bottle which acts as a reservoir. 
 
 I encountered quite a few challenges with my modification, the first one being a 4 port relay model. I believe that the module was either defective or overly complicated. I fixed this by swapping to a single-port relay model. My second challenge was trying to get the Arduino and my portal board to communicate, as they used different languages. I solved this by just connecting the relay module directly to my pyportal board by building my own cable with some jumper wires. The biggest challenge however was trying to water proof the connection from the solenoid valve to the water bottle. This took 4 days and many sticks of hot glue, but I fixed this by cutting a hole in the bottle cap that would barely slide over the tubing.
- <a href="https://www.amazon.com/Silicon-CellarBrew-Silicone-Brewing-Winemaking/dp/B07W5TGX8B/ref=sr_1_3?crid=2KJ0WSFC7RVCX&keywords=quarter%2Binch%2Bid%2Btubing&qid=1687562681&sprefix=quarter%2Binch%2Bid%2Btubi%2Caps%2C191&sr=8-3&th=1"> CAD File </a>
+ <a href="https://drive.google.com/file/d/1LIKCd2hSua3SGX5UI72wh-j0zbAVx4Xa/view?usp=sharing"> CAD File </a>
 
   
 # Final Milestone
